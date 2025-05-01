@@ -1,0 +1,50 @@
+{
+  "name": "hyperliquidx",
+  "version": "0.1.0",
+  "description": "A reactive wrapper for the Hyperliquid API",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bunup",
+    "dev": "bunup --watch",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format .",
+    "format:fix": "biome format --write .",
+    "tsc": "tsc --noEmit",
+    "test": "bun test",
+    "test:watch": "bun test --watch",
+    "test:coverage": "bun test --coverage",
+    "release": "bumpp --commit --push --tag",
+    "publish:ci": "bun publish --access public --no-git-checks",
+    "prepare": "husky",
+		"docs:generate": "typedoc --plugin typedoc-plugin-markdown --out ./docs/api ./src/index.ts",
+		"docs:inject": "bun run docs/inject-readme.js",
+		"docs": "bun run docs:generate && bun run docs:inject"
+  },
+  "dependencies": {
+    "typedoc": "^0.28.3",
+    "typedoc-plugin-markdown": "^4.6.3"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "bunup": "^0.5.6",
+    "bumpp": "^10.1.0",
+    "husky": "^9.1.7",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baxelson12/hyperliquidx.git"
+  },
+  "homepage": "https://github.com/baxelson12/hyperliquidx#readme"
+}
