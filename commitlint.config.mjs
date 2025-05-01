@@ -1,6 +1,6 @@
 export default {
-  extends: ['@commitlint/config-conventional'],
+  extends: ["@commitlint/config-conventional"],
   rules: {
-    'subject-case': [0],
+    "subject-case": [0],
   },
 };
