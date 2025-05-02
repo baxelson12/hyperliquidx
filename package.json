@@ -24,7 +24,8 @@
     "docs": "tsdoc --src=src/index.ts"
   },
   "dependencies": {
-    "@nktkas/hyperliquid": "^0.17.4"
+    "@nktkas/hyperliquid": "^0.17.4",
+    "indicatorts": "^2.2.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
