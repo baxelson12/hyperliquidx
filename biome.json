@@ -6,7 +6,11 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "suspicious": {
+        "noConfusingVoidType": "off",
+        "noAssignInExpressions": "off"
+      }
     },
     "ignore": ["dist", "node_modules"]
   },
