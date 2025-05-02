@@ -23,7 +23,9 @@
     "prepare": "husky",
     "docs": "tsdoc --src=src/index.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@nktkas/hyperliquid": "^0.17.4"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@commitlint/cli": "^19.8.0",
@@ -40,5 +42,8 @@
     "type": "git",
     "url": "git+https://github.com/baxelson12/hyperliquidx.git"
   },
-  "homepage": "https://github.com/baxelson12/hyperliquidx#readme"
+  "homepage": "https://github.com/baxelson12/hyperliquidx#readme",
+  "peerDependencies": {
+    "@preact/signals-core": "^1.8.0"
+  }
 }
