@@ -2,13 +2,13 @@
 
 A reactive wrapper for the Hyperliquid API
 
-## Installation
+# Installation
 
 ```bash
 bun install hyperliquidx
 ```
 
-## Usage
+# Usage
 
 ```typescript
 import { } from 'hyperliquidx';
@@ -16,7 +16,7 @@ import { } from 'hyperliquidx';
 // TBD...
 ```
 
-## Development
+# Development
 
 ```bash
 # Install dependencies
@@ -32,7 +32,7 @@ bun run dev
 bun run test
 ```
 
-## Documentation
+# Documentation
 
 <!-- TSDOC_START -->
 
@@ -67,10 +67,10 @@ greet("Jimmy");
 
 <!-- TSDOC_END -->
 
-## Contributing
+# Contributing
 
 Please see [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines.
 
-## License
+# License
 
 MIT
