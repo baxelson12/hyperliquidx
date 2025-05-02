@@ -1,1 +1,1 @@
-bun run tsc && bun run format && bun run lint && bun run docs
+bun run tsc && bun run format && bun run lint
