@@ -10,6 +10,9 @@
       "suspicious": {
         "noConfusingVoidType": "off",
         "noAssignInExpressions": "off"
+      },
+      "performance": {
+        "noAccumulatingSpread": "off"
       }
     },
     "ignore": ["dist", "node_modules"]
