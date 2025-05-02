@@ -5,15 +5,15 @@ A reactive wrapper for the Hyperliquid API
 ## Installation
 
 ```bash
-npm install hyperliquidx
+bun install hyperliquidx
 ```
 
 ## Usage
 
 ```typescript
-import { greet } from 'hyperliquidx';
+import { } from 'hyperliquidx';
 
-console.log(greet('World')); // Hello, World!
+// TBD...
 ```
 
 ## Development
@@ -31,6 +31,41 @@ bun run dev
 # Run tests
 bun run test
 ```
+
+## Documentation
+
+<!-- TSDOC_START -->
+
+## :toolbox: Functions
+
+- [greet](#gear-greet)
+
+### :gear: greet
+
+Greets a user with given 'name'.
+
+| Function | Type |
+| ---------- | ---------- |
+| `greet` | `(name: string) => string` |
+
+Parameters:
+
+* `name`: The user's name
+
+
+Examples:
+
+```typescript
+import { greet } from 'hyperliquidx';
+
+// Will log 'Hello, Jimmy!'
+greet("Jimmy");
+```
+
+
+
+
+<!-- TSDOC_END -->
 
 ## Contributing
 

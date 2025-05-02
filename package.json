@@ -21,19 +21,17 @@
     "release": "bumpp --commit --push --tag",
     "publish:ci": "bun publish --access public --no-git-checks",
     "prepare": "husky",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --out ./docs ./src/index.ts"
+    "docs": "tsdoc --src=src/index.ts"
   },
-  "dependencies": {
-    "typedoc": "^0.28.3",
-    "typedoc-plugin-markdown": "^4.6.3"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
-    "bunup": "^0.5.6",
     "bumpp": "^10.1.0",
+    "bunup": "^0.5.6",
     "husky": "^9.1.7",
+    "tsdoc-markdown": "^1.2.0",
     "typescript": "^5.8.3",
     "vitest": "^3.1.2"
   },

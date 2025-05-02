@@ -9,6 +9,7 @@
  *
  * // Will log 'Hello, Jimmy!'
  * greet("Jimmy");
+ * ```
  * @remarks This is just a test function to ensure everything works properly.
  */
 export function greet(name: string): string {
