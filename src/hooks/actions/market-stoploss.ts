@@ -11,7 +11,7 @@ import { round } from "src/utils/round";
  * Provides reactive state for placing a market stop-loss order.
  * This function places a reduce-only trigger order that executes as a market order
  * if the market price crosses the specified trigger price (`config.price`).
- * It uses the `tpsl: "sl"` and `isMarket: true` flags internally.
+ * It uses the `tpsl: "sl"` (stop-loss) and `isMarket: true` flags internally.
  * Note: The order direction (`isBuy`) should be the opposite of the position you are protecting.
  * Price and trigger price are rounded to 1 decimal place, size to 4 decimal places internally.
  *

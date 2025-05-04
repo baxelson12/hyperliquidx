@@ -26,7 +26,7 @@ export function useMarketStoploss(
               trigger: {
                 isMarket: true,
                 triggerPx: round(price, 1).toString(),
-                tpsl: "tp",
+                tpsl: "sl",
               },
             },
           },
